@@ -16,7 +16,7 @@ Set up your JSX layouts with `<Flex /> `, `<Box /> `, `<Absolute /> `, and `<Abs
 
 ## Try It Out
 
-[Try it out on CodeSandbox](https://codesandbox.io/s/styledflexbox-example-6cisp)
+[Try it out on CodeSandbox](https://codesandbox.io/s/styledsystemflexbox-example-6cisp)
 
 ## Usage
 
