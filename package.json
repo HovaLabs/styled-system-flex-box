@@ -1,0 +1,62 @@
+{
+  "name": "styled-system-flex-box",
+  "version": "1.0.0",
+  "description": "React primitive UI components built with styled-components and styled-system. Inspired by Rebass",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HovaLabs/styled-system-flex-box.git"
+  },
+  "keywords": [
+    "flexbox",
+    "styled-components",
+    "styled-system",
+    "design-system",
+    "react-native",
+    "react component",
+    "react native component",
+    "react",
+    "react native",
+    "mobile",
+    "ios",
+    "android",
+    "ui",
+    "css"
+  ],
+  "author": "Matt Hova",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/HovaLabs/styled-system-flex-box/issues"
+  },
+  "homepage": "https://github.com/HovaLabs/styled-system-flex-box#readme",
+  "dependencies": {
+    "lodash": "^4.17.11",
+    "prop-types": "^15.7.2",
+    "styled-components": "^4.2.0",
+    "styled-system": "^4.2.4"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.4.4",
+    "@babel/core": "^7.4.5",
+    "@babel/preset-env": "^7.4.5",
+    "@babel/preset-react": "^7.0.0",
+    "babel-jest": "^24.8.0",
+    "babel-plugin-transform-rename-import": "^2.3.0",
+    "jest": "^24.8.0",
+    "jest-styled-components": "^6.3.1",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-test-renderer": "^16.8.6"
+  },
+  "jest": {
+    "testMatch": [
+      "**/test/**/*.js"
+    ],
+    "setupFilesAfterEnv": [
+      "jest-styled-components"
+    ]
+  }
+}
