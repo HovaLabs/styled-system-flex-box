@@ -9,7 +9,7 @@ React primitive UI components built with styled-components and styled-system. In
 Compatible with React and React-Native
 
 ```sh
-npm i styled-flex-box
+npm i styled-system-flex-box
 ```
 
 Set up your JSX layouts with `<Flex /> `, `<Box /> `, `<Absolute /> `, and `<AbsoluteFlex /> ` components.  
