@@ -1,4 +1,4 @@
-import { isEmpty } from 'lodash';
+import { isEmpty } from "lodash";
 import {
   space,
   color,
@@ -16,8 +16,8 @@ import {
   borderRadius,
   overflow,
   position,
-  display,
-} from 'styled-system';
+  display
+} from "styled-system";
 
 export function createBox(StyledElement) {
   // Prevent from creating a new style whenever width or height are modified
@@ -29,7 +29,10 @@ export function createBox(StyledElement) {
     ${space}
     ${color}
     ${width}
-    ${p => minWidth({ minWidth: p.minWidth || 0 })} /* Default to min-width: 0 to save from dumb flex bugs */
+    ${p =>
+      minWidth({
+        minWidth: p.minWidth || 0
+      })} /* Default to min-width: 0 to save from dumb flex bugs */
     ${maxWidth}
     ${height}
     ${minHeight}
